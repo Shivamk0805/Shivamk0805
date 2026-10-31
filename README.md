@@ -17,6 +17,8 @@ APIs, deployment and monitoring. Focused on ML for finance and infrastructure.
 
 ### [ThermalView](https://github.com/Shivamk0805/thermalview): forecast-aware workload placement for server fleets
 
+*Industry project, Jio Platforms Limited*
+
 Forecasts CPU temperature 5–30 minutes ahead on real telemetry from 40 nodes of the Marconi100
 supercomputer, then ranks servers by how hot they will be *after* a new job lands.
 
@@ -47,7 +49,7 @@ published at ICNEXTS'25.
 **Languages:** Python · SQL · Java  
 **Machine learning:** scikit-learn · pandas · NumPy · TensorFlow · OpenCV · *learning: PyTorch, LightGBM, Hugging Face*  
 **Backend & MLOps:** FastAPI · Docker · Git · GitHub Actions · Prometheus · Grafana  
-**Systems:** Linux (RHEL) · networking · PostgreSQL · MySQL
+**Systems & cloud:** Linux (RHEL) · OpenStack · VMware ESXi · Kubernetes (basics) · networking · PostgreSQL · MySQL
 
 ---
 
@@ -60,8 +62,11 @@ published at ICNEXTS'25.
 
 ## Experience
 
-**Summer Intern, Jio Platforms Limited** · Jun–Aug 2026 · Navi Mumbai  
-Built the first ThermalView prototype; provisioned enterprise bare-metal servers and VMs; set up an OpenStack test cloud.
+**Summer Intern, Infrastructure & Cloud, Jio Platforms Limited** · Jun–Aug 2026 · Navi Mumbai
+
+- Industry project: built **ThermalView**, a server-temperature forecasting and thermal-aware workload placement tool, with anomaly detection on live telemetry
+- Deployed a **4-node OpenStack private cloud** (controller, 2 compute, storage) on Ubuntu 24.04 after a single-node DevStack build
+- Administered **Dell PowerEdge R640** servers: RAID, iDRAC, VMware ESXi, VM provisioning; worked with Docker and Kubernetes
 
 **Operations Manager, Sports Council VIIT** · Sep 2024 – present · Pune  
 Plan and run inter- and intra-college sports events (previously Documentation Head).
