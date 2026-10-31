@@ -1,114 +1,73 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Shivam%20Koli&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20%7C%20Machine%20Learning%20%7C%20Computer%20Vision%20%7C%20Infrastructure&descAlignY=55&descAlign=50" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Shivam%20Koli&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Machine%20Learning%20Engineer&descAlignY=58&descAlign=50" />
 
-## Shivam Koli
+**Final-year Computer Engineering · VIIT Pune · 2027**
 
-B.Tech Computer Engineering · VIIT Pune · 2023–2027 · CGPA 8.23/10
+I build machine-learning systems end to end: data pipelines, models tested against honest baselines,
+APIs, deployment and monitoring. Focused on ML for finance and infrastructure.
+
+[Portfolio](https://shivamk0805.github.io/) · [LinkedIn](https://www.linkedin.com/in/shivam-koli-a586902a0/) · [Email](mailto:shivamkoli0805@gmail.com)
 
 </div>
 
 ---
 
-## 👾 `whoami`
+## Featured project
 
-- AI / Machine Learning / Computer Vision / Infrastructure Monitoring
-- Current: **Jio Platforms Limited — Intern**
-- Industry project: **ThermalView**
-- Location: Pune, Maharashtra
+### [ThermalView](https://github.com/Shivamk0805/thermalview): forecast-aware workload placement for server fleets
 
-## 🎯 Current Focus
+Forecasts CPU temperature 5–30 minutes ahead on real telemetry from 40 nodes of the Marconi100
+supercomputer, then ranks servers by how hot they will be *after* a new job lands.
 
-- Building AI, machine-learning and infrastructure-monitoring applications.
-- Developing **ThermalView** as an industry project during my **Jio Platforms Limited** internship.
-- Working with **HPE server infrastructure, iLO/Redfish telemetry, bare-metal servers, virtualization, OpenStack and Cisco IOS networking**.
-- Exploring computer vision, thermal forecasting and AI-based applications.
+- Random Forest beats the persistence baseline by **8.7%** (12.4% on unseen nodes, 11.3% on an unseen month)
+- Forecast-aware placement cut time above the thermal limit by **14%** in a simulator calibrated on real data
+- Leakage-safe evaluation: chronological splits, held-out nodes, bootstrap CIs, conformal intervals
+- Live operator console, REST API, Prometheus/Grafana, Docker, CI on GitHub Actions
 
-## ⚡ Tech Arsenal
+`Python` `scikit-learn` `pandas` `Starlette` `SQLite` `Docker` `Prometheus`
 
-**Programming:** Python · Java · C++ · JavaScript · SQL  
-**AI/ML:** Machine Learning · Deep Learning · Computer Vision · TensorFlow · Scikit-learn · RAG · Generative AI  
-**Frameworks:** FastAPI · Flask · Streamlit · NumPy · Pandas · OpenCV  
-**Infrastructure:** HPE iLO · Redfish · OpenStack · Docker · Prometheus · Grafana · RHEL · Linux  
-**Networking:** Cisco IOS · TCP/IP · SSH · ICMP  
-**Databases:** SQLite · MySQL · PostgreSQL · SQL Server · MongoDB  
-**Tools:** Git · GitHub · VS Code
+### [Real-Time Sign Language Detection](https://github.com/Shivamk0805/sign-language-detector)
 
----
+Recognises 36 Indian Sign Language gestures in real time with SSD MobileNet V2. Related research
+published at ICNEXTS'25.
 
-## 🗂️ Projects
+`Python` `TensorFlow` `OpenCV`
 
-### 🔥 ThermalView — Predictive Thermal-Aware Workload Scheduling
+### Currently building
 
-**Industry Project — Jio Platforms Limited**
-
-- Deployment-ready infrastructure monitoring and scheduling system using **Python, FastAPI, Redfish, Prometheus and Grafana**.
-- Integrates **HPE iLO/Redfish telemetry** with thermal prediction, risk classification and workload/server ranking.
-- Provides explainable thermal-aware scheduling recommendations and infrastructure observability.
-
-### 🤟 Real-Time Sign Language Detection System
-
-- Real-time ISL recognition using **Python, OpenCV and TensorFlow** with **SSD MobileNet V2**.
-- Custom dataset containing **36 ISL gestures (A–Z, 0–9)** with image preprocessing and hand segmentation.
-
-[🔗 View Project on GitHub](https://github.com/Shivamk0805/sign-language-detector)
+- **Real-time fraud detection**: Kafka streaming, LightGBM, FastAPI, PostgreSQL, MLflow, drift monitoring
+- **Financial document Q&A (RAG)**: hybrid search, reranking, cited answers, a labelled evaluation set
+- **Credit risk (probability of default)**: calibration, cost-based thresholds, SHAP explanations
 
 ---
 
-## 💼 Experience & Activities
+## Skills
 
-### 🏢 Jio Platforms Limited (JPL)
-
-**Intern · Jun 2026 – Present · Navi Mumbai**
-
-- Developed **ThermalView** as a deployment-ready industry project for predictive thermal-aware workload scheduling and enterprise infrastructure monitoring.
-- Worked with **enterprise bare-metal servers**, hypervisor installation, VM deployment and server provisioning with **HPE server infrastructure**.
-- Configured a **single-node OpenStack private cloud** and gained hands-on experience with **Cisco IOS networking** in an enterprise environment.
-
-### ⚽ Sports Council VIIT
-
-**Senior Advisor & Former Operations Manager · Sep 2024 – Present · Pune**
-
-- Progressed from **Documentation Head** to **Operations Manager** and now **Senior Advisor**, contributing to event planning, documentation, team coordination, logistics and on-ground execution of inter-college and intra-college sports events.
+**Languages:** Python · SQL · Java  
+**Machine learning:** scikit-learn · pandas · NumPy · TensorFlow · OpenCV · *learning: PyTorch, LightGBM, Hugging Face*  
+**Backend & MLOps:** FastAPI · Docker · Git · GitHub Actions · Prometheus · Grafana  
+**Systems:** Linux (RHEL) · networking · PostgreSQL · MySQL
 
 ---
 
-## 🎓 Education
+## Research & IP
 
-**Vishwakarma Institute of Information Technology (VIIT), Pune**  
-B.Tech Computer Engineering · 2023–2027 · **CGPA: 8.23 / 10**
+- *A MediaPipe and CNN-Based Framework for Real-Time Sign Language Recognition and Translation*, ICNEXTS'25, December 2025 (co-author)
+- *ThermalView: Forecast-Aware Thermal Workload Placement on Real HPC Telemetry* (first author, under review)
+- *Intelligent Crop Monitoring System Using ResNet50* (first author, under review)
+- Registered copyright: *Eventastic*, Govt. of India (LD-20250169685)
 
----
+## Experience
 
-## 📜 Certifications
+**Summer Intern, Jio Platforms Limited** · Jun–Aug 2026 · Navi Mumbai  
+Built the first ThermalView prototype; provisioned enterprise bare-metal servers and VMs; set up an OpenStack test cloud.
 
-- IBM Full Stack Software Developer — Coursera
-- AWS Academy Graduate — Cloud Foundations — AWS
-- CCNA: Introduction to Networks — Cisco
-- **RHCSA — Red Hat Certified System Administrator — 300/300**
-- **JLPT N5 — Japanese-Language Proficiency Test**
-- **Machine Learning Certificate**
-- **Andrew Ng / Stanford Online Machine Learning Certificate**
+**Operations Manager, Sports Council VIIT** · Sep 2024 – present · Pune  
+Plan and run inter- and intra-college sports events (previously Documentation Head).
 
-## 📚 Intellectual Property
+## Certifications
 
-### 📄 Research Publication
-
-**A MediaPipe and CNN-Based Framework for Real-Time Sign Language Recognition and Translation** — ICNEXTS’25, December 2025.
-
-### 📜 Registered Copyright
-
-**Eventastic: Make every event fantastic with Eventastic**  
-Certificate No. **LD-20250169685** · Govt. of India · 2025
-
-### 🔬 Additional Research / IP
-
-Research Publication 2 · Patent / Research Paper — details to be added when finalized.
-
----
-
-## 🤝 Let's Connect
-
-[LinkedIn](https://www.linkedin.com/in/shivam-koli-a586902a0/) · [GitHub](https://github.com/Shivamk0805) · [Portfolio](https://shivamk0805.github.io/) · [Email](mailto:shivamkoli0805@gmail.com)
-
-> *Keep building. Keep learning. Keep improving.* 🚀
+Red Hat Certified System Administrator (RHCSA, 300/300) · AWS Academy Cloud Foundations ·
+Cisco CCNA: Introduction to Networks · Machine Learning (Andrew Ng, Stanford Online) ·
+IBM Full Stack Software Developer · JLPT N5
