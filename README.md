@@ -32,7 +32,7 @@ supercomputer, then ranks servers by how hot they will be *after* a new job land
 ### [Real-Time Sign Language Detection](https://github.com/Shivamk0805/sign-language-detector)
 
 Recognises 36 Indian Sign Language gestures in real time with SSD MobileNet V2. Related research
-published at ICNEXTS'25.
+[published in ITM Web of Conferences (ICNEXTS'25)](https://www.itm-conferences.org/articles/itmconf/abs/2026/02/itmconf_icnexts2026_03024/itmconf_icnexts2026_03024.html).
 
 `Python` `TensorFlow` `OpenCV`
 
@@ -55,7 +55,7 @@ published at ICNEXTS'25.
 
 ## Research & IP
 
-- *A MediaPipe and CNN-Based Framework for Real-Time Sign Language Recognition and Translation*, ICNEXTS'25, December 2025 (co-author)
+- [*A MediaPipe and CNN-Based Framework for Real-Time Sign Language Recognition and Translation*](https://www.itm-conferences.org/articles/itmconf/abs/2026/02/itmconf_icnexts2026_03024/itmconf_icnexts2026_03024.html), ITM Web of Conferences 82 (ICNEXTS'25), 2026 (co-author)
 - *ThermalView: Forecast-Aware Thermal Workload Placement on Real HPC Telemetry* (first author, under review)
 - *Intelligent Crop Monitoring System Using ResNet50* (first author, under review)
 - Registered copyright: *Eventastic*, Govt. of India (LD-20250169685)
