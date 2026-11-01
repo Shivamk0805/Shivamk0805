@@ -68,8 +68,8 @@ published at ICNEXTS'25.
 - Deployed a **4-node OpenStack private cloud** (controller, 2 compute, storage) on Ubuntu 24.04 after a single-node DevStack build
 - Administered **Dell PowerEdge R640** servers: RAID, iDRAC, VMware ESXi, VM provisioning; worked with Docker and Kubernetes
 
-**Operations Manager, Sports Council VIIT** · Sep 2024 – present · Pune  
-Plan and run inter- and intra-college sports events (previously Documentation Head).
+**Operations Manager, Sports Council VIIT** · Nov 2025 – Jul 2026 · Pune  
+Ran on-ground operations for inter- and intra-college sports events; Documentation Head Sep 2024 – Oct 2025.
 
 ## Certifications
 
