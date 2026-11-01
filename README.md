@@ -73,6 +73,6 @@ Ran on-ground operations for inter- and intra-college sports events; Documentati
 
 ## Certifications
 
-Red Hat Certified System Administrator (RHCSA, 300/300) · AWS Academy Cloud Foundations ·
+Red Hat Certified System Administrator (RHCSA, 271/300) · AWS Academy Cloud Foundations ·
 Cisco CCNA: Introduction to Networks · Machine Learning (Andrew Ng, Stanford Online) ·
 IBM Full Stack Software Developer · JLPT N5
